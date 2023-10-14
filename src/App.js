@@ -11,6 +11,9 @@ import UploadTest from './Components/UploadTest';
 import UploadCourse from './Components/UploadCourse';
 import ViewCourse from './Components/ViewCourse';
 import ViewTest from './Components/ViewTest';
+import ErrorRadios from './Components/Question';
+import QuestionPage from './Components/QuesMake';
+import QuestionPageCopy from './Components/QueCopy';
 
 
 
@@ -21,9 +24,12 @@ function App() {
       <div className="Navbar">
       <Navbar />
       </div>
+      {/* <ErrorRadios/> */}
+      <QuestionPage />
+      {/* <QuestionPageCopy/> */}
       <div className="content_x">
       <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/upload_blog" element={<UploadBlog />} />
             <Route path="/view_blog" element={<ViewBlog />} />
             <Route path="/upload_book" element={<UploadBook />} />
