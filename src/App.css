@@ -2,9 +2,19 @@
     margin: 0px;
     padding: 0%;
 }
+
+
+/* These are for View Test */
+ 
 .lst_of_ques{
     margin-left: calc(20%);
     margin-right: calc(15%);
     /* display: flex; */
     /* justify-content: center; */
 }
+.topQ{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* These are for View Test */
