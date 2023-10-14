@@ -12,8 +12,7 @@ import UploadCourse from './Components/UploadCourse';
 import ViewCourse from './Components/ViewCourse';
 import ViewTest from './Components/ViewTest';
 import QuestionPages from './Components/ViewTest';
-
-
+import UploadTestCpy from './Components/UploadTestCpy';
 
 function App() {
   return (
@@ -24,7 +23,10 @@ function App() {
       </div>
       {/* <ErrorRadios/> */}
       {/* <QuestionPag  e /> */}
-      <QuestionPages />
+      {/* <QuestionPages /> */}
+    {/* <UploadTest/> */}
+    <UploadTestCpy />
+      
       <div className="content_x">
       <Routes>
             {/* <Route path="/" element={<Home />} /> */}
