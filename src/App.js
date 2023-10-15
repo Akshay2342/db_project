@@ -12,8 +12,8 @@ import UploadCourse from './Components/UploadCourse';
 import ViewCourse from './Components/ViewCourse';
 
 import ViewTest from './Components/ViewTest';
-
-
+import QuestionPages from './Components/ViewTest';
+import UploadTestCpy from './Components/UploadTestCpy';
 
 function App() {
   return (
@@ -22,9 +22,15 @@ function App() {
       <div className="Navbar">
       <Navbar />
       </div>
+      {/* <ErrorRadios/> */}
+      {/* <QuestionPag  e /> */}
+      {/* <QuestionPages /> */}
+    {/* <UploadTest/> */}
+    <UploadTestCpy />
+      
       <div className="content_x">
       <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/upload_blog" element={<UploadBlog />} />
             <Route path="/view_blog" element={<ViewBlog />} />
             <Route path="/upload_book" element={<UploadBook />} />
