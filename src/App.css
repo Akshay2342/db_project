@@ -25,3 +25,11 @@
     border: 2px solid black;
     /* position: relative; */
 }
+
+
+/* For Editor */
+.editor{
+    position: absolute;
+    left: calc(15%);
+    right: calc(20%);
+}
