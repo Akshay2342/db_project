@@ -35,7 +35,7 @@ const UploadTestCpy = ()=>{
         setnewQuestion({...initialQuestion});
         toggleForm();
         // seta(true);
-        handleClickVariant('success');
+        handleClickVariant('primary ');
     }
 
     const toggleForm = () => {
